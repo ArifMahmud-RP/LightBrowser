@@ -1,0 +1,551 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <link rel="canonical" href="http://catchvideo.net/" />
+    <link rel="alternate" hreflang="en" href="http://catchvideo.net/en" />
+    <link rel="alternate" hreflang="fr" href="http://catchvideo.net/fr" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="catchvideo.net">
+
+    <title>Download online videos with Catchvideo.net and convert them to MP3 from Youtube, Facebook, Dailymotion, Vimeo videos for free</title>
+    <meta name="Keywords" content="online youtube downloader, youtube downloader online, video download, video converter, download youtube, download mp3, download youtube video, video converter, catch mp3, convert video to sound, video to sound, video to mp3, rip youtube sound, convert video to music, video to mp3 converter" />
+    <meta name="Description" content="Catchvideo.net Downloader is a free online web application, which allows you to download your YouTube, Facebook, Dailymotion, Vimeo videos and convert to MP3, OGG, FLAC, WMA ..." />
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Catchvideo.net - Download and convert to MP3 your Youtube, Facebook, Dailymotion, Vimeo videos for free" />
+    <meta property="og:site_name" content="catchvideo.net" />
+    <meta property="og:description" content="Catchvideo.net is the best free online video service which helps you catch videos from YouTube, Facebook, Dailymotion, Vimeo and other online video sites." />
+    <meta property="og:url" content="http://catchvideo.net/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="fr_FR" />
+    <meta property="og:image" content="http://catchvideo.net/static/img/catchvideonet2.jpg" />
+    <meta property="og:image:type" content="image/jpg" />
+
+    <link rel="icon" href="/static/img/favico.png?v=1.14.16">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+     
+        <link href="/static/css/site.min.css?v=1.14.16" rel="stylesheet">
+     
+
+     
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+     
+
+    <!--[if IE]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.3/jquery.xdomainrequest.min.js"></script>
+    <script src="/static/js/ie-emulation-modes-warning.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="/static/js/modernizr.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    
+    
+        <script type="text/javascript"> var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-9328394-4']);
+        _gaq.push(['_trackPageview']);
+        setTimeout("_gaq.push(['_trackEvent', '15_seconds', 'read'])",15000);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();</script>
+     
+     
+
+    <script type="text/javascript">
+         $(function() {
+            $('.main').css('min-height', screen.height - 200);
+         });
+    </script>
+</head>
+<body>
+    
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
+    <div class="header">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a title="Catchvideo.net: Download YouTube Videos, Facebook, Vimeo, Dailymotion, Youku, Tudou, Metacafe and many more" class="navbar-brand" href="/"><img src="/static/img/logo.png"></a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active" ><a href="/">Home</a></li>
+                        <li ><a href="/convertaudio">Convert to mp3</a></li>
+                        <li ><a href="/popular">Popular videos</a></li>
+                        <li ><a href="/software">Software/Extensions</a></li>
+                        <li ><a href="/contact">Contact us - Dmca</a></li>
+                        
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a id="dropdownMenu1" data-toggle="dropdown" aria-expanded="false">
+                            <img class="img_flag" src="/static/img/flag_us2.gif" alt="lang_en" title="English">&nbsp;English&nbsp;
+                            
+                            <i class="fa fa-caret-down"></i></a>
+                            <ul class="dropdown-menu ddlanguage" role="menu" aria-labelledby="dropdownMenu1">
+                                <li><a class="active" id="en" href="http://catchvideo.net/en"><img class="img_flag" src="/static/img/flag_us2.gif" alt="lang_en" title="English">&nbsp;English&nbsp;</a></li>
+                                <li><a id="fr" href="http://catchvideo.net/fr"><img class="img_flag" src="/static/img/flag_fr.gif" alt="lang_fr" title="French">&nbsp;French&nbsp;</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
+    </div>
+
+    <script type="text/javascript">
+        var resource;
+        $(function() {
+            resource= {"AUDIOONLY": "Audio only", "BUTTONCONVERTAUDIO": "Convert", "BUTTONDOWNLOAD": "Download", "CLICKTODOWNLOAD2": "Click to download", "ERROR_DAILYMOTION_NO_EXT": "Extension not installed, Dailymotion is not supported without extension, please install it", "ERROR_DAILYMOTION_UNKNOW": "Error when trying to catch Dailymotion links", "ERROR_GET_SOURCE_UNKNOW": "Unknow error", "ERROR_HEADING": "Error in process", "ERROR_ONLY_YOUTUBE": "Actually, only Youtube is supported for conversion to audio", "ERROR_PLEASE_INSTALL_EXTENSION": "Please install \u003cb\u003e\"Catchvideo helper\"\u003c/b\u003e extension for your browser to fetch video links.", "ERROR_PLEASE_INSTALL_EXTENSION_VIMEO": "Please install \u003cb\u003e\"Catchvideo helper\"\u003c/b\u003e extension for your browser to fetch Vimeo video links.", "ERROR_PLEASE_INSTALL_EXTENSION_YOUTUBE": "Please install \u003cb\u003e\"Catchvideo helper\"\u003c/b\u003e extension for your browser to fetch Youtube video links.", "ERROR_TOO_MUCH_REQUEST": "Too much request from your network", "ERROR_UNKNOWN": "unknow error", "ERROR_VIMEO_UNKNOW": "Error when trying to catch Vimeo links", "ERROR_YOUTUBE_COUNTRY_RESTRICTION": "This video is not available in your country", "ERROR_YOUTUBE_UNKNOW": "Error when trying to catch Youtube links", "EXAMPLELINK": "Example: guitar lessons or ", "EXTINSTALLED": "+ Extension is installed on your system", "EXTNOTINSTALLED": "- Please install our extension for maximum support of video links", "LABEL_NEW": "*New:", "LANG": "en", "PLEASEINSTALLEXT": "Extension is not installed on your system, to install it, go to software page", "PROCESS_SUCCESS_HEADING": "Process success", "SAVERIGHTCLICKPOPUP": "Right-Click this download link and choose \u0027Save Link As\u0027. If it don\u0027t work, drag the link into a new tab then save the video in it (CTRL+S). You can rename the file to this: (copy to clipboard or CTRL+C)", "SEARCH_NO_VIDEO_FOUND": "No videos found on this request", "SEARCH_TITLE": "Pick a video", "STREAM_SUCCESS_IN": "Stream has been processed successfully in: ", "UNKNOWN": "Unknown", "URLEMPTY": "Please set a valid url !", "VIDEOONLY": "Video only", "WARNING_HEADING": "Warning"};
+        });
+    </script>
+
+    <div class="main">
+        
+<div class="container">
+    <div class="row">
+        <div class="col-md-offset-1 col-lg-10">
+            <div id="pubtop1">
+            
+                <a href="https://pro.keepvid.com/keepvid-video-downloader.html" style="border:0;" target="_blank">
+         <img src="/static/img/w2.jpg"></a>
+            
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spacer"></div>
+
+<div id="init" class="band">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-1 col-lg-10">
+                <h4>Paste your video link below then press the &#39;Catch!&#39; button</h4>
+                <form id="form1" class="form-horizontal" action="/">
+                    <div class="form-group">
+                        <div style="padding-left:15px;padding-right:15px;width:100%;min-width:200px;max-width:700px;">
+                            <div class="input-group input-group-md">
+                                <input name='url' type="text" id="input1" class="form-control input-md" placeholder="Paste your link or search for a keyword here" value="https://www.youtube.com/watch?v=AeGfss2vsZg" onclick="this.value=''">
+                                <input name='ext' id="extension1" type="hidden" value="0">
+                                <span class="input-group-btn">
+                                    <button id="grab1" class="btn btn-orange btn-md" type="submit">Catch!</button>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-lg-12">
+                            <p><small>Example: guitar lessons or http://www.youtube.com/watch?v=I9Law-26wdQ</small></p>
+                        </div>
+                        <div id="extInfo1" style="display:none" class="col-lg-12">
+                            <span id="extInstalled1"></span>         
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-offset-1 col-lg-10">
+            <div class="process">
+
+    <div id="step_progress" style="display:none">
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="title">Downloading</p>
+                <div class="panelinfo progress">
+                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="step_loading" class="panelinfo progress progress-striped" style="display: none;margin-top: 20px">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                    <i class="fa fa-refresh fa-spin"></i>
+                    <span class="message">Please wait ...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="step_error" class="panelinfo" style="display:none">
+        <div class="row">
+            <div class="panel-body"><i class="fa fa-warning error"></i><span class="panel-heading error">Error in process</span><span class="message error">There is an error</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+            <div class="clearfix"></div>
+            <div class="spacer"></div>
+            <div id="social">
+                <ul class="share-buttons">
+    <li>
+    <div class="fb-like" data-href="http://www.facebook.com/pages/CatchVideonet/172625429454094" data-width="200" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+    </li>
+    <li>
+        <a href="#" target="_blank" title="Share on Twitter" onclick="window.open('https://twitter.com/intent/tweet?text=Free Online YouTube Downloader: Download and Convert to mp3 your YouTube Videos, Dailymotion, Facebook and many others !&amp;url=http://catchvideo.net', '_blank', 'scrollbars=0, resizable=1, menubar=0, left=400, top=200, width=600, height=440, toolbar=0, status=0');return false">
+            <img src="/static/img/Twitter.svg">
+        </a>
+    </li>    
+</ul>
+            </div>
+            <div class="clearfix"></div>
+            
+            <div id="log1" style="display: none">
+    <div class="header1">
+        <a class="closebtn1" href="#"><i class="fa fa-times"></i></a>
+        <a class="closetitle1" href="#">Close</a>
+        <a class="clear1" href="#">Clear</a>
+    </div>
+    <textarea readonly id="logmessage1"></textarea>
+</div>
+
+<script type="text/javascript">
+
+    $(function()
+    {
+        $('#log1 .closetitle1, #log1 .closebtn1').on('click', function(e){
+            $(this).blur();
+            cookie.set('logopen', '0' , 365);
+            $('#log1').hide();
+        });
+        $('#log1 .clear1').on('click', function(e){
+            $(this).blur();
+            log.clear();
+        });
+        $('#openlog1').on('click', function(e){
+            e.preventDefault();
+            $(this).blur();
+            var isShown = $('#log1').is(':visible');
+            if (!isShown) {
+                cookie.set('logopen', '1' , 365);
+                $('#log1').show();
+            }
+            else {
+                cookie.set('logopen', '0' , 365);
+                $('#log1').hide();
+            }
+        });
+
+        if (cookie.get('logopen') == '1') {
+            $('#log1').show();
+        } else {
+            $('#log1').hide();
+        }
+    });
+
+
+</script>
+            
+            <div id="step_display_links" style="display: none">
+    <div class="spacer"></div>
+    <p><span class="label label-info">Info:</span><span style="padding-left: 5px">Right-click &#39;Download&#39; and choose &#39;Save Link&amp;amp;Target As...&#39; </span></p>
+    <div>
+        
+        
+    <!-- Placement: 728X90, Type: Popup -->
+    <script type='text/javascript' src='http://adsrvmedia.adk2x.com/imp?p=71931038&ct=html&ap=1303&iss=0&f=0'></script>
+    
+        
+    </div>
+    <div class="row download-list">
+        <div class="col-sm-7">
+            <ul class="list1 list-unstyled" style="margin-bottom: 0">
+            </ul>
+            <div class="d_more">
+                <a class="a_more" role="button" data-toggle="collapse" href="#showmore" aria-expanded="false" aria-controls="showmore"><i class="fa fa-arrow-down" aria-hidden="true"></i>Show more</a>
+            </div>
+            <ul class="list2 list-unstyled collapse" id="showmore" style="margin-bottom: 0;margin-left: 10px">
+            </ul>
+        </div>
+        <div class="col-sm-5">
+            <div class="imgurl" style="display:none">
+    <p><span class="lbl">Title:</span><span class="title"></span></p>
+    <p class="hduration" style="display:none"><span class="lbl">Duration:</span><span class="duration"></span></p>
+    <p class="hvideosrc"><span class="lbl">Url:</span><span class="videosrc"></span></p>
+    <img src="" class="thumb" alt="">                    
+</div>
+            <div>
+                
+                
+        <a href="http://dominoad.adk2x.com/imp?p=72326205&ct=html&ap=1303&iss=0&f=0" rel="nofollow" target="_blank" style="border:0;">
+        <img src="/static/img/dominoad_300X250_EN.gif" height="200" width="300">
+        </a>
+    
+                
+            </div>
+        </div>
+    </div>                     
+</div>
+            <h2>Download a video</h2>
+            <p>Enter a URL from YouTube, Facebook, DailyMotion, Vimeo or various other sites and click the ’Catch!' button. Our platform will display all the available links that can be downloaded for this video <b>(webm, mp4, flv, 3gp, m4a)</b>. Please be patient, downloading a video can take a few minutes to complete.<br/>
+    </p>
+            <div class="spacerlg"></div>
+            <p></p>
+            <div class="spacerlg"></div>
+            <div class="supported">
+    <h4>Supported sites</h4>
+    <div class="inner">
+
+        <div class="sites-site col-sm-3 col-xs-6">
+
+            
+            <img src="http://youtube.com/favicon.ico"><a class="needext" href="" rel="nofollow" target="_blank"><b>youtube.com</b></a>
+            
+
+        </div>
+
+        <div class="sites-site col-sm-3 col-xs-6">
+
+            
+            <img src="http://soundcloud.com/favicon.ico"><a href="" rel="nofollow" target="_blank">soundcloud.com</a>
+            
+
+        </div>
+
+        <div class="sites-site col-sm-3 col-xs-6">
+
+            
+            <img src="/static/img/vimeo.ico"><a class="needext" href="" rel="nofollow" target="_blank"><b>vimeo.com</b></a>
+            
+
+        </div>
+
+        <div class="sites-site col-sm-3 col-xs-6">
+
+            
+            <img src="http://static1.dmcdn.net/images/favicons/favicon-16x16.png.v680d4fe841b83a8f9"><a class="needext" href="" rel="nofollow" target="_blank"><b>dailymotion.com</b></a>
+            
+
+        </div>
+
+        <div class="sites-site col-sm-3 col-xs-6">
+
+            
+            <img src="https://secure.assets.tumblr.com/images/favicons/favicon.ico?_v=a891a6916b745ae20be499f98db2f875"><a href="" rel="nofollow" target="_blank">tumblr.com</a>
+            
+
+        </div>
+
+        <div class="sites-site col-sm-3 col-xs-6">
+
+            
+            <img src="/static/img/viki.png"><a href="" rel="nofollow" target="_blank">viki.com</a>
+            
+
+        </div>
+
+        <div class="sites-site col-sm-3 col-xs-6">
+
+            
+            <img src="https://abs.twimg.com/favicons/favicon.ico"><a href="" rel="nofollow" target="_blank">twitter.com</a>
+            
+
+        </div>
+
+        <div class="sites-site col-sm-3 col-xs-6">
+
+            
+            <img src="/static/img/metacafe.ico"><a href="" rel="nofollow" target="_blank">metacafe.com</a>
+            
+
+        </div>
+
+        <div class="sites-site col-sm-3 col-xs-6">
+
+            
+            <a href="" rel="nofollow" target="_blank">XFileShare</a>
+            
+
+        </div>
+
+        <div class="sites-site col-sm-3 col-xs-6">
+
+            
+            <a href="" rel="nofollow" target="_blank">GorillaVid.in</a>
+            
+
+        </div>
+
+        <div class="sites-site col-sm-3 col-xs-6">
+
+            
+            <a href="" rel="nofollow" target="_blank">daclips.in</a>
+            
+
+        </div>
+
+        <div class="sites-site col-sm-3 col-xs-6">
+
+            
+            <a href="" rel="nofollow" target="_blank">movpod.in</a>
+            
+
+        </div>
+
+        <div class="sites-site col-sm-3 col-xs-6">
+
+            
+            <a href="" rel="nofollow" target="_blank">fastvideo.in</a>
+            
+
+        </div>
+
+        <div class="sites-site col-sm-3 col-xs-6">
+
+            
+            <a href="" rel="nofollow" target="_blank">playwire.com</a>
+            
+
+        </div>
+
+        <div class="sites-site col-sm-3 col-xs-6">
+
+            
+            <img src="http://break.com/favicon.ico"><a href="" rel="nofollow" target="_blank">break.com</a>
+            
+
+        </div>
+
+        <div class="sites-site col-sm-3 col-xs-6">
+
+            
+            <img src="http://www.liveleak.com/favicon.ico"><a href="" rel="nofollow" target="_blank">liveleak.com</a>
+            
+
+        </div>
+
+        <div class="sites-site col-sm-3 col-xs-6">
+
+            
+            <img src="http://collegehumor.com/favicon.ico"><a href="" rel="nofollow" target="_blank">collegehumor.com</a>
+            
+
+        </div>
+
+        <div class="sites-site col-sm-3 col-xs-6">
+
+            
+            <img src="http://flickr.com/favicon.ico"><a href="" rel="nofollow" target="_blank">flickr.com</a>
+            
+
+        </div>
+
+        <div class="sites-site col-sm-3 col-xs-6">
+
+            
+            <img src="/static/img/veoh.ico"><a href="" rel="nofollow" target="_blank">veoh.com</a>
+            
+
+        </div>
+
+        <div class="sites-site col-sm-3 col-xs-6">
+
+            
+            <img src="http://www.youku.com/favicon.ico"><a href="" rel="nofollow" target="_blank">youku.com</a>
+            
+
+        </div>
+
+        <div class="sites-site col-sm-3 col-xs-6">
+
+            
+            <img src="http://vbox7.com/favicon.ico"><a href="" rel="nofollow" target="_blank">vbox7.com</a>
+            
+
+        </div>
+
+        <div class="sites-site col-sm-3 col-xs-6">
+
+            
+            <img src="/static/img/facebook.ico"><a href="" rel="nofollow" target="_blank">facebook.com</a>
+            
+
+        </div>
+    
+    </div>
+    <span><i>Sites marked red require &#39;Catchvideo Helper Userscript&#39;.</i></span>
+</div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    'use strict';
+    var catchvideo_ext = false;
+    /*jshint ignore:start*/
+    var $SCRIPT_ROOT = "";
+    /*jshint ignore:end*/
+    var url = "";
+    $(function() {
+        convert_link_init();
+    });
+</script>
+
+
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-sm-12 text-left">
+                    <ul class="footer-menu">
+                        <li><a id="openlog1" href="#">Log</a></li>
+                        <li><a href="/terms">Terms of use</a></li>
+                        <li><a href="/en/contact">Contact us - Dmca</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 text-left">
+                    <p>Catchvideo.net&copy; - Free service - We simply provide a service to download and convert videos from Youtube to your computer for free. YouTube<sup>tm</sup> videos are not hosted on our servers. <i>All rights reserved</i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="catchvideo_obj" style="display:none">~none</div>
+    <textarea id="catchvideo_data" style="display:none"></textarea>
+    <div id="appletContent"></div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+    
+    <script type="text/javascript" src="/static/js/website-final.min.js?v=1.14.16"></script>
+    
+    
+</body>
+</html>

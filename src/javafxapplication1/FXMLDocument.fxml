@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="448.0" prefWidth="939.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.FXMLDocumentController">
+   <children>
+      <TabPane fx:id="tabPane" prefHeight="200.0" prefWidth="200.0" tabMaxWidth="80.0" tabMinWidth="80.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Button fx:id="newTabBtn" layoutY="20.0" mnemonicParsing="false" onAction="#newTabFunction" prefHeight="16.0" prefWidth="23.0" text="+" textAlignment="CENTER" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="4.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <MenuBar prefHeight="40.0" prefWidth="190.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="29.0">
+        <menus>
+            <Menu mnemonicParsing="false">
+               <graphic>
+                  <Label fx:id="historyLabel" onMouseClicked="#historyLabelFunction" text="History" />
+               </graphic>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Settings">
+            <items>
+                  <Menu mnemonicParsing="false" text="Search Engine">
+                    <items>
+                        <CheckMenuItem fx:id="googleMenuItm" mnemonicParsing="false" onAction="#setEngine" text="Google" />
+                        <CheckMenuItem fx:id="bingMenuItm" mnemonicParsing="false" onAction="#setEngine" text="Bing" />
+                    </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Start Page">
+                    <items>
+                        <Menu mnemonicParsing="false" text="Set by theme">
+                          <items>
+                            <MenuItem mnemonicParsing="false">
+                                 <graphic>
+                                    <ColorPicker fx:id="colorPicker" />
+                                 </graphic>
+                              </MenuItem>
+                          </items>
+                        </Menu>
+                        <MenuItem fx:id="homePageBackgroundImg" mnemonicParsing="false" onAction="#backgroundImgFunction" text="Set by image" />
+                        <MenuItem mnemonicParsing="false" text="Set by website" />
+                        <MenuItem mnemonicParsing="false" text="Keep blank" />
+                    </items>
+                  </Menu>
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+                  <MenuItem mnemonicParsing="false" text="How to" />
+              <MenuItem mnemonicParsing="false" text="Contact us" />
+            </items>
+          </Menu>
+        </menus>
+         <padding>
+            <Insets top="6.0" />
+         </padding>
+      </MenuBar>
+      <Button fx:id="homeBtn" mnemonicParsing="false" onAction="#createHomeTab" onMouseEntered="#homeBtnHover" onMouseExited="#homeBtnHoverExit" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="35.0" />
+      <Label fx:id="downloadLabel" style="-fx-background-color: White;" AnchorPane.rightAnchor="187.0" AnchorPane.topAnchor="68.0" />
+      <Button fx:id="downloadButton" layoutX="733.0" layoutY="45.0" mnemonicParsing="false" onAction="#downloadButtonFunction" onMouseEntered="#downloadBtnHover" onMouseExited="#downloadBtnHoverExit" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="35.0" />
+      <Label fx:id="homeLabel" style="-fx-background-color: White;" AnchorPane.rightAnchor="252.0" AnchorPane.topAnchor="68.0" />
+      <Button fx:id="bookmarkButton" layoutX="683.0" layoutY="45.0" mnemonicParsing="false" onAction="#bookmarkButtonFunction" onMouseEntered="#bookmarkBtnHover" onMouseExited="#bookmarkBtnHoverExit" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="35.0" />
+      <Label fx:id="bookmarkLabel" layoutX="726.0" layoutY="70.0" style="-fx-background-color: White;" AnchorPane.rightAnchor="292.0" AnchorPane.topAnchor="68.0" />
+      <AnchorPane fx:id="downloadAnchorPane" prefHeight="200.0" prefWidth="200.0" AnchorPane.rightAnchor="70.0" AnchorPane.topAnchor="70.0">
+         <children>
+            <Label fx:id="downloadStatusLabel" alignment="CENTER" textAlignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="historyAnchorPane" prefHeight="200.0" prefWidth="200.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="70.0">
+         <children>
+            <Accordion AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <panes>
+                <TitledPane animated="false" text="This session">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ListView fx:id="historyList" prefHeight="200.0" prefWidth="200.0" />
+                              <MenuBar AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <menus>
+                                  <Menu fx:id="historyMenu" mnemonicParsing="false" text="History" />
+                                 </menus>
+                              </MenuBar>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </TitledPane>
+                <TitledPane animated="false" text="Previous History">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <DatePicker fx:id="startDatePicker" promptText="Start date" style="-fx-border-color: lawngreen;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+                              <DatePicker fx:id="endDatePicker" promptText="End date" style="-fx-border-color: lawngreen;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0" />
+                              <ListView fx:id="prevHistoryListView" prefHeight="200.0" prefWidth="200.0" AnchorPane.topAnchor="50.0" />
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </TitledPane>
+                <TitledPane animated="false" text="Clean History">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <DatePicker fx:id="delStartDatePicker" promptText="Start date" style="-fx-border-color: hotpink;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+                              <DatePicker fx:id="delEndDatePicker" layoutX="10.0" layoutY="10.0" promptText="End date" style="-fx-border-color: hotpink;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0" />
+                              <Button fx:id="delHistButton" mnemonicParsing="false" onAction="#deleteHistoryFunction" text="Delete" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0" />
+                              <Label fx:id="delHistLabel" alignment="CENTER" text="Permanently delete history" textFill="#979292" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="110.0" />
+                           </children></AnchorPane>
+                  </content>
+                </TitledPane>
+              </panes>
+            </Accordion>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
